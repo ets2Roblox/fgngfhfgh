@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1024px;
+    margin: auto;
+}
+
+.header {
+    background-color: #f2f2f2;
+    padding: 16px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #008cff;
+}
+
+.menu {
+    width: 200px;
+}
+
+.menu-list {
+    list-style: none;
+}
+
+.menu-item {
+    margin-bottom: 8px;
+    display:inline-block;
+    padding: 5px;
+}
+
+.main {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.text-block {
+    flex: 1;
+}
+
+.highlight {
+    background-color: #079cff;
+    color: #fff;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 48px;
+    color: #0099ff;
+    margin-bottom: 32px;
+}
+
+.description {
+    font-size: 25px;
+    color: #666;
+    margin-bottom: 20px;
+    transform: translate(0px, 20px);
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    background-color: #008cff;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 9px;
+    font-size: 16px;
+    
+}
+
+.image-block {
+    width: 500px;
+}
+
+.image-block img {
+    width: 100%;
+    height: auto;
+    margin-top: -50px;
+}
+
+.about {
+    background-color: #f2f2f2;
+    padding: 32px 0;
+}
+
+.subtitle {
+    font-size: 32px;
+    color: #ff04ff;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 32px;
+    text-align:center;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-link {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link i {
+    color: #fff;
+    font-size: 35px;
+}
+
+.cn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translate(5px, -25px);
+}
+
+.button1 {
+    transform: translate(-230px);
+    background-color: #ffffff;
+    color: #000000;
+    padding: 12px 24px;
+    border-radius: 9px;
+    font-size: 16px;
+    border: 1px solid #00000070;
+
+}
+
+.subtitle1 {
+    color: #333;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
